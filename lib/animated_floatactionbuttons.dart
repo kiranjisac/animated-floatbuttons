@@ -85,6 +85,7 @@ class _AnimatedFloatingActionButtonState
   Widget toggle() {
     return Container(
       child: FloatingActionButton(
+        clipBehavior: Clip.antiAlias,
         backgroundColor: _buttonColor.value,
         onPressed: animate,
         tooltip: 'Toggle',

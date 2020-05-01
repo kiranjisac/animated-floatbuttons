@@ -90,7 +90,6 @@ class _AnimatedFloatingActionButtonState
         onPressed: animate,
         tooltip: 'Toggle',
         child: AnimatedIcon(
-          color: Colors.white,
           icon: widget.animatedIconData,
           progress: _animateIcon,
         ),
